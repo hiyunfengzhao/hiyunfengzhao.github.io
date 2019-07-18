@@ -3,24 +3,23 @@
 
 .grid-2{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr); 
 }
 
 body{
     margin: 0;
     padding: 10;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(190, 184, 184, 0.575);
-    color: rgb(65, 63, 63);
-    cursor: default;
+    background-color:#2e2f3e;
+    cursor: default; 
 }
 
 h2,.white{
-    color: rgb(65, 64, 64);
+    color: #fff;
 }
 
 a{
-    color: rgb(65, 63, 63);
+    color: #fff;
     text-decoration: none;
 }
 /* section 1 */
@@ -28,15 +27,13 @@ a{
     padding-top: 30vh;
     padding-left: 20vw;
     text-align: center;
-    
-
 }
 
 .section-1 p{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
-    color:rgb(6, 1, 59);
+    color:#AAAAAA;
 }
 
 .btn {
@@ -52,17 +49,18 @@ a{
 .section-1 h2{
     font-size: 1.7rem;
     margin-bottom: 10px;
-    color: rgb(6, 1, 59);
+    color: #fff;
 }
 
 .section-1 a{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 10px;
-    color:rgb(65, 63, 63);
+    color:#fff;
 }
 
 img {
     border-radius:50%;
+    opacity: 0.8;
 }
 
 /* section 2 */
@@ -74,7 +72,7 @@ img {
 .section-2 h2{
     font-size: 1.7rem;
     margin-bottom: 10px;
-    color: rgb(6, 1, 59);
+    color: #fff;
 }
 
 .section-2 p{
@@ -82,6 +80,7 @@ img {
     padding-bottom: 10px;
     margin:0;
     word-spacing: 3px;
+    color:#AAAAAA;
 }
 
 .section-2 a{
@@ -90,6 +89,7 @@ img {
     font-size: 1.3rem;
     padding-left: 0;
     width: auto;
+    color:#AAAAAA;
 }
 /* animations / utilities */
 .section-2 a:hover{
