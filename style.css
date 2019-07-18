@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 10;
     font-family: 'Roboto', sans-serif;
-    background-color: #e6e7e7;
+    background-color: rgba(190, 184, 184, 0.575);
     color: rgb(65, 63, 63);
     cursor: default;
 }
@@ -28,6 +28,7 @@ a{
     padding-top: 30vh;
     padding-left: 20vw;
     text-align: center;
+    
 
 }
 
@@ -36,6 +37,16 @@ a{
     padding-bottom: 10px;
     margin:0;
     color:rgb(6, 1, 59);
+}
+
+.btn {
+    display: inline-block;
+    color: #333;
+    text-shadow: none;
+    margin: 4px 2px;
+    border-radius: .25rem;
+    font-weight: bold;
+    
 }
 
 .section-1 h2{
