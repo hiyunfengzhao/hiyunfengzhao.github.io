@@ -46,8 +46,8 @@ a{
     
 }
 
-.section-1 h2{
-    font-size: 1.7rem;
+.section-1 h1{
+    font-size: 2rem;
     margin-bottom: 10px;
     color: #fff;
 }
@@ -55,7 +55,7 @@ a{
 .section-1 a{
     font-size: 1.3rem;
     padding: 10px;
-    color:rgb(190, 190, 190);
+    color:rgb(218, 216, 216);
 }
 
 img {
