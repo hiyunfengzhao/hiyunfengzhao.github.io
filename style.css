@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 10;
     font-family: 'Roboto', sans-serif;
-    background-color:#20212c;
+    background: linear-gradient(to right, #536976, #292e49);
     cursor: default; 
 }
 
@@ -33,7 +33,7 @@ a{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
-    color:#AAAAAA;
+    color:rgb(190, 190, 190);
 }
 
 .btn {
@@ -55,7 +55,7 @@ a{
 .section-1 a{
     font-size: 1.3rem;
     padding: 10px;
-    color:#fff;
+    color:rgb(190, 190, 190);
 }
 
 img {
@@ -80,7 +80,7 @@ img {
     padding-bottom: 10px;
     margin:0;
     word-spacing: 3px;
-    color:#AAAAAA;
+    color:rgb(190, 190, 190);
 }
 
 .section-2 a{
@@ -89,12 +89,12 @@ img {
     font-size: 1.3rem;
     padding-left: 0;
     width: auto;
-    color:#AAAAAA;
+    color:rgb(190, 190, 190);
 }
 /* animations / utilities */
 .section-2 a:hover{
     font-size: 1.4rem;
-    color: rgb(65, 63, 63);
+    color: #267CB9;
     cursor: pointer;
     transition: 0.2s;
 }
