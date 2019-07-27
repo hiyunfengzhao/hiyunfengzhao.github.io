@@ -18,7 +18,18 @@ body{
   cursor: default;
 }
 
+h1 {
 
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: auto auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em;
+    animation:
+      typing 2.8s steps(40, end),
+      blink-caret .75s step-end infinite;
+
+}
 
 h2,.white{
     color: #fff;
@@ -97,13 +108,6 @@ img {
     color:#D3D3D3;
 }
 /* animations / utilities */
-.section-2 a:hover{
-    font-size: 1.4rem;
-    color: #267CB9;
-    cursor: pointer;
-    transition: 0.3s;
-
-}
 
 .section-1 a:hover{
     color: #267CB9;
@@ -113,6 +117,21 @@ img {
 
 }
 
+.img:hover{
+    -webkit-transform: rotateZ(-15deg);
+    -ms-transform: rotateZ(-15deg);
+    transform: rotateZ(-15deg);
+    transition: 0.1s;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 
 /* media queres */
 @media(max-width:780px){
