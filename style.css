@@ -63,7 +63,7 @@ a.btn {
 }
 
 .section-1 h1{
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin-bottom: 10px;
     color: #fff;
 }
@@ -148,8 +148,11 @@ img {
         padding-left: 2rem;
         padding-top: 2rem;
     }
-    h1{ font-size: 50%;
 
+    .section-1 h1{
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: #fff;
     }
 
 
