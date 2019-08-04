@@ -54,13 +54,6 @@ a{
     color:#D3D3D3;
 }
 
-a.btn {
-
-    display:inline-flex;
-    text-shadow: none;
-    font-weight: bold;
-
-}
 
 .section-1 h1{
     font-size: 2.6rem;
@@ -69,10 +62,28 @@ a.btn {
 }
 
 .section-1 a{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 15px;
     color:#fff;
+
 }
+
+a.btn {
+    margin-top:10px;
+    display:inline-flex;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    padding:7px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    color:#FFF;
+    background-color:#008CBA;
+}
+
+
 
 img {
     border-radius:50%;
@@ -109,11 +120,12 @@ img {
 }
 /* animations / utilities */
 
+
 .section-1 a:hover{
     color: #267CB9;
     cursor: pointer;
     transition: 0.3s;
-    transform: scale(1.3);
+
 
 }
 
@@ -123,6 +135,7 @@ img {
     transform: rotateZ(-15deg);
     transition: 0.1s;
 }
+
 
 @keyframes typing {
   from { width: 0 }
