@@ -13,9 +13,8 @@ body{
 
   padding: 10;
   font-family: 'Roboto', sans-serif;
-  background-image: url("bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient( #536976, #292e49);
+  background-attachment: fixed;
   cursor: default;
 }
 
@@ -149,7 +148,7 @@ img {
 }
 
 /* media queres */
-@media(max-width:780px){
+@media(max-width:1024px){
     .grid-2{
         grid-template-columns: 1fr;
     }
