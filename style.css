@@ -13,7 +13,7 @@ body{
 
   padding: 10;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient( #536976, #292e49);
+  background: linear-gradient(to bottom, #536976, #323d7e);
   background-attachment: fixed;
   cursor: default;
 }
