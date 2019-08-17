@@ -143,7 +143,7 @@ img {
     padding-bottom: 10px;
     margin:0;
     word-spacing: 3px;
-    color:#D3D3D3;
+    color:#fff;
 }
 
 .section-2 a{
@@ -152,7 +152,7 @@ img {
     font-size: 1.3rem;
     padding-left: 0;
     width: auto;
-    color:#D3D3D3;
+    color:#fff;
     text-decoration: none;
 }
 /* animations / utilities */
