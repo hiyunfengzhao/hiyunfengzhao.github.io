@@ -10,12 +10,33 @@
 
 
 body{
-
   padding: 10;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to bottom, #536976, #323d7e);
-  background-attachment: fixed;
   cursor: default;
+  min-height:100%;
+
+}
+/* background blur */
+.bg:before{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  top:0;
+  background-image: url('bg.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+     -moz-filter: blur(5px);
+       -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+
 }
 
 h1 {
@@ -28,7 +49,6 @@ h1 {
     animation:
       typing 2.8s steps(40, end),
       blink-caret .75s step-end infinite;
-
 }
 
 h2,.white{
@@ -63,7 +83,7 @@ a{
 }
 
 .section-1 p{
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     padding-bottom: 10px;
     margin:0;
     color:#D3D3D3;
@@ -71,13 +91,13 @@ a{
 
 
 .section-1 h1{
-    font-size: 2.6rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     color: #fff;
 }
 
 .section-1 a{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 15px;
     color:#55ACEE;
 }
@@ -88,7 +108,7 @@ a.btn {
     display:inline-flex;
     text-shadow: none;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     border-radius: 12px;
     padding:7px;
     -webkit-border-radius: 40px;
@@ -112,27 +132,27 @@ img {
 
 .section-2 h2{
     text-decoration: underline;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     color: #fff;
 
 }
 
 .section-2 p{
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     padding-bottom: 10px;
     margin:0;
     word-spacing: 3px;
-    color:#D3D3D3;
+    color:#fff;
 }
 
 .section-2 a{
     display: block;
     padding: 5px;
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     padding-left: 0;
     width: auto;
-    color:#D3D3D3;
+    color:#fff;
     text-decoration: none;
 }
 /* animations / utilities */
