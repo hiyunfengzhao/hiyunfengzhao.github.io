@@ -18,6 +18,7 @@ body{
 
 }
 /* background blur */
+/*
 .bg:before{
   content: "";
   position: fixed;
@@ -39,7 +40,7 @@ body{
       -ms-filter: blur(10px);
 
 }
-
+*/
 h1 {
     font-family: 'Roboto', sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -53,7 +54,7 @@ h1 {
 }
 
 h2,.white{
-    color: #fff;
+    color: rgb(95, 93, 93);
 }
 
 
@@ -71,14 +72,14 @@ h2,.white{
     font-size: 0.7rem;
     padding-bottom: 10px;
     margin:0;
-    color:#D3D3D3;
+    color:rgb(8, 8, 8);
 }
 
 
 .section-1 h1{
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #fff;
+    color: rgb(54, 54, 54);
 }
 
 .section-1 a{
@@ -110,22 +111,22 @@ img {
 }
 
 .fa-linkedin {
-    color: white;
+    color: rgb(126, 125, 125);
   }
 
 .fa-linkedin:hover {
-    color: rgb(20, 3, 48);
+    color: rgb(52, 0, 136);
 }
 .fa-facebook {
-    color: white;
+    color: rgb(126, 125, 125);
   }
 
 .fa-facebook:hover {
-    color:#25385f;
+    color:#052c74;
   }
 
 .fa-github {
-    color: white;
+    color:rgb(126, 125, 125);
     border-radius: 50%;
   }
 
@@ -141,10 +142,10 @@ img {
 }
 
 .section-2 h2{
-    text-decoration: underline;
+   
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #fff;
+    color: rgb(99, 97, 97);
 
 }
 
@@ -153,7 +154,7 @@ img {
     padding-bottom: 10px;
     margin:0;
     word-spacing: 3px;
-    color:rgb(231, 229, 229);
+    color:rgb(134, 134, 134);
 }
 
 .section-2 a{
@@ -162,7 +163,7 @@ img {
     font-size: 1.1rem;
     padding-left: 0;
     width: auto;
-    color:#fff;
+    color:rgb(134, 134, 134);
     text-decoration: none;
 }
 /* animations / utilities */
@@ -201,7 +202,7 @@ img {
     .section-1 h1{
         font-size: 2rem;
         margin-bottom: 10px;
-        color: #fff;
+        color:rgb(8, 8, 8);
     }
 
 
