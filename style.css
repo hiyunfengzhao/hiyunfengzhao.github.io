@@ -11,7 +11,7 @@
 
 body{
   padding: 10;
-  
+  background-color: rgb(54, 11, 11);
   font-family: 'Open Sans', sans-serif;
   cursor: default;
   min-height:100%;
@@ -54,7 +54,7 @@ h1 {
 }
 
 h2,.white{
-    color: rgb(95, 93, 93);
+    color: rgb(175, 170, 170);
 }
 
 
@@ -79,7 +79,7 @@ h2,.white{
 .section-1 h1{
     font-size: 2rem;
     margin-bottom: 10px;
-    color: rgb(99, 97, 97);
+    color: rgb(201, 197, 197);
 }
 
 .section-1 a{
@@ -111,14 +111,14 @@ img {
 }
 
 .fa-linkedin {
-    color: rgb(126, 125, 125);
+    color: rgb(172, 172, 172);
   }
 
 .fa-linkedin:hover {
-    color: rgb(52, 0, 136);
+    color: rgb(36, 46, 177);
 }
 .fa-facebook {
-    color: rgb(126, 125, 125);
+    color: rgb(172, 172, 172);
   }
 
 .fa-facebook:hover {
@@ -126,7 +126,7 @@ img {
   }
 
 .fa-github {
-    color:rgb(126, 125, 125);
+    color:rgb(172, 172, 172);
     border-radius: 50%;
   }
 
@@ -145,7 +145,7 @@ img {
    
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: rgb(99, 97, 97);
+    color: rgb(201, 197, 197);
 
 }
 
@@ -154,7 +154,7 @@ img {
     padding-bottom: 10px;
     margin:0;
     word-spacing: 3px;
-    color:rgb(134, 134, 134);
+    color:rgb(161, 160, 160);
 }
 
 .section-2 a{
@@ -202,7 +202,7 @@ img {
     .section-1 h1{
         font-size: 2rem;
         margin-bottom: 10px;
-        color:rgb(8, 8, 8);
+        color:rgb(172, 172, 172);
     }
 
 
